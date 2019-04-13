@@ -1,0 +1,8 @@
+prefix=/home/turltebot3-raspi/catkin_ws/install
+
+Name: control_tb3
+Description: Description of control_tb3
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/turltebot3-raspi/catkin_ws/install/lib 
+Requires: 

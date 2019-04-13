@@ -1,0 +1,9 @@
+<launch>
+    <arg name="file"/>
+    <node pkg="control_tb3" name="textfile_controller" type="controller.py" output="screen">
+        <param name="distance" value="0"/>
+        <param name="init_file_name" value="$(arg file)"/>
+    </node>
+    <node pkg="control_tb3" name="lidar" type="detect_obs.py" output="screen">
+    </node>
+</launch>
